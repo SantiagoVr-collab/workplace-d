@@ -1,0 +1,286 @@
+@import ../fonts/fonts-control
+
+//add the main colors
+$default_text_color: #000000
+$default_a_color: #c5c5c5
+$orange-light: #ff800077
+$purple: #7408ff
+$purple-light: #5716ac
+$blue-purple: #111835
+$bg-light: #f3f8ff
+$green-cool: #31f36b
+$green-light: #31f36b5e
+$green-lighter: #31f36b25
+
+$blanco: #fff
+$yellow: #b6ac21
+
+
+
+
+//all styles
+body
+    font-family: 'Product Sans'
+    background: $bg-light
+
+
+//header styles
+header 
+    padding: 40px 0
+
+.remove_ul_dots 
+    list-style: none
+
+.default_a 
+    text-decoration: none
+    color: $default_a_color
+    margin: 30px
+    font-size: 18px
+    user-select: none
+    font-family: 'Product Sans'
+    &:hover
+        color: $default_text_color
+
+.main_lg
+    width: 100%
+    max-width: 100px
+    margin: 0 20px
+    a
+        img
+            width: 100%
+
+
+//main styles
+.main
+    .row
+        .wrapp
+            .content
+                padding: 80px 80px
+                margin-bottom: 200px
+
+h1 
+    font-family: 'Newsreader'
+    font-weight: 600
+    font-size: 70px
+    text-align: center
+    .underlined-text
+        border-bottom: 10px solid $orange-light
+        display: inline-block
+        line-height: .40
+
+.default_text 
+    color: $default_text_color
+    font-family: 'Product Sans'
+    font-size: 20px
+    text-align: center
+
+.default_btn
+    background: $purple
+    padding: 13px 25px
+    font-size: 20px
+    color: $blanco
+    text-decoration: none
+    font-weight: 600
+    border-bottom-left-radius: 17px
+    border-top-right-radius: 17px
+    box-shadow: 0 1rem 2.5rem rgba(27,22,66,.1),0 .5rem 1rem -.75rem rgba(27,22,66,.1)!important
+    transition: all .2s
+    &:hover
+        color: $blanco
+        transform: translate3d(0,-3px,0)
+        box-shadow: 0 1rem 2.5rem rgba(27,22,66,.1),0 .5rem 1rem -.75rem rgba(27,22,66,.1)!important
+        background: $purple-light
+
+
+.buy_style_btn
+    background: $blanco
+    padding: 13px 25px
+    font-size: 20px
+    color: $purple
+    text-decoration: none
+    font-weight: 600
+    border-bottom-left-radius: 17px
+    border-top-right-radius: 17px
+    box-shadow: 0 1rem 2.5rem rgba(27,22,66,.1),0 .5rem 1rem -.75rem rgba(27,22,66,.1)!important
+    transition: all .2s
+    &:hover
+        color: $purple
+        transform: translate3d(0,-3px,0)
+        box-shadow: 0 1rem 2.5rem rgba(27,22,66,.1),0 .5rem 1rem -.75rem rgba(27,22,66,.1)!important
+        background: $blanco
+
+
+.bg-right
+    width: 100%
+    .row
+        display: flex
+        justify-content: center
+        align-items: center
+        .wrapp
+            position: absolute
+            width: 100%
+            height: 1200px
+            background: $blue-purple
+            transform: skewY(-3deg)
+            z-index: 2
+            border-radius: 5px
+        .content
+            position: relative
+            z-index: 10000
+            padding: 150px 40px
+            color: $blanco
+            text-align: center
+            font-size: 20px
+            text-align: left
+            span 
+                color: $purple
+            .content-chart
+                width: 100%
+                height: 300px
+                margin-top: 50px
+                border-radius: 5px
+                box-shadow: 0 5rem 5.5rem rgba(27,22,66,.1),0 .5rem 5rem -.75rem rgba(27,22,66,.1)!important
+                .division
+                    width: 1px
+                    height: 300px
+                    background: $bg-light
+                    opacity: .2
+                    margin: 20px
+                .content-box
+                    width: 50%
+                    height: 260px
+                    margin: 30px
+                    border-radius: 5px
+                    background: $purple-light
+
+        
+
+.bg-left
+    width: 100%
+    margin-top: 100px
+    .row
+        display: flex
+        justify-content: center
+        align-items: center
+        .wrapp
+            position: absolute
+            width: 100%
+            height: 1200px
+            background: $blanco
+            transform: skewY(2deg)
+            z-index: 2
+            border-radius: 5px
+        .content
+            position: relative
+            z-index: 10000
+            padding: 150px 40px
+            color: $default_text_color
+            text-align: center
+            font-size: 20px
+            text-align: left
+            .accordion-button
+                border: none
+            .accordion-body 
+                border: none
+            .accordion-item
+                box-shadow: 0 5rem 5.5rem #1b164209,0 .5rem 5rem -.75rem #1b16420c!important
+                .accordion-header
+                    font-size: 20px
+                    font-family:  'Product Sans'
+                    font-weight: bolder
+            .accordion
+                margin-bottom: 200px
+
+.default_a_styles
+    text-decoration: none
+    color: $purple
+    transition: all .1s
+    margin: 20px 0
+    display: inline-block
+    &:hover
+        color: $purple-light
+
+
+
+
+
+
+
+//charts
+
+.charts 
+    margin-top: 400px
+    margin-bottom: 10px
+
+.chart_img
+    img
+        border-radius: 5px
+        box-shadow: 0 5rem 5.5rem rgba(27,22,66,.1),0 .5rem 5rem -.75rem rgba(27,22,66,.1)!important
+
+.chart_content 
+    padding: 0 80px
+    h2
+        font-family: 'Product Sans'
+        font-size: 40px
+        font-weight: 600
+        margin-bottom: 30px
+    p
+        font-size: 20px
+        color: $default_text_color
+
+    ul
+        list-style: none
+        padding: 0 
+        margin: 30px 0
+        li
+            font-size: 20px
+            color: $default_text_color
+            .img
+                width: 100%
+                border-radius: 50px
+                height: 80px
+                background: $blanco
+                box-shadow: 0 5rem 5.5rem rgba(27,22,66,.1),0 .5rem 5rem -.75rem rgba(27,22,66,.1)!important
+                padding: 10px
+                .bar
+                    width: 80%
+                    height: 60px
+                    border-radius: 50px
+                    background: $green-cool
+                .bar-light
+                    width: 60%
+                    height: 60px
+                    border-radius: 50px
+                    background: $green-light
+
+                .bar-lighter
+                    width: 40%
+                    height: 60px
+                    border-radius: 50px
+                    background: $green-lighter
+
+                img
+                    width: 100%
+                    max-width: 60px
+                    border-radius: 50%
+            .fas 
+                font-size: 16px
+                color: $yellow
+                margin: 10px
+
+
+
+
+// footer
+.lists
+    ul 
+        list-style: none
+        margin: 0 25px
+        li
+            color: $default_text_color
+            padding: 5px 0
+            a
+                text-decoration: none
+                color: $default_text_color
+                &:hover
+                    color: $default_text_color
