@@ -32,7 +32,7 @@
                             <div class="buy col-6 d-flex justify-content-start">
                                 <a class="default_btn buy_style_btn" href="">buy something</a>
                             </div>
-                        </div>
+                        </div> 
                     </div>
                 </div>
             </div>
