@@ -22,7 +22,7 @@
                 <div class="wrapp d-flex justify-content-center align-items-center">
                     <div class="content">
                         <div class="title">
-                            <h1>A modern desigy system for your new <span class="underlined-text">SaaS platform.</span></h1>
+                            <h1>A modern deashdajhsdsigy system for your new <span class="underlined-text">SaaS platform.</span></h1>
                         </div>
                         <p class="default_text">Goodkit will make your product look modern and professional while saving you precious time</p>
                         <div class="row buttons mt-5">
