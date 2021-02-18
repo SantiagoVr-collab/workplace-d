@@ -1,12 +1,12 @@
 <footer>
 <div class="row">
     <div class="wrapp-footer col-12">
-        <div class="content-footer d-flex align-items-center">
+        <div class="content-footer d-xl-flex d-lg-flex d-md-block d-sm-block align-items-center">
             <div class="lg col-2">
             <img width="100%" src="assets/lg/Mesa de trabajo 1 copia 5@2x-80.jpg" alt="">
             </div>
 
-            <div class="lists col-10 d-flex justify-content-end">
+            <div class="lists col-10 d-xl-flex d-lg-flex d-md-block d-sm-block justify-content-end">
                 <ul>
                     <li><a href="">Contact</a></li>
                     <li><a href="">Shop</a></li>

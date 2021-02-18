@@ -25,8 +25,17 @@ body
 
 
 //header styles
+.navbar
+    background: $bg-light
+
 header 
     padding: 40px 0
+
+.lg
+    width: 100%
+    max-width: 100px
+    img
+        width: 100%
 
 .remove_ul_dots 
     list-style: none
@@ -74,6 +83,17 @@ h1
     font-size: 20px
     text-align: center
 
+.buttons
+    display: flex
+
+.join
+    display: flex
+    justify-content: flex-end
+
+.buy
+    display: flex
+    justify-content: flex-start
+
 .default_btn
     background: $purple
     padding: 13px 25px
@@ -85,6 +105,8 @@ h1
     border-top-right-radius: 17px
     box-shadow: 0 1rem 2.5rem rgba(27,22,66,.1),0 .5rem 1rem -.75rem rgba(27,22,66,.1)!important
     transition: all .2s
+    width: max-content
+    text-align: center
     &:hover
         color: $blanco
         transform: translate3d(0,-3px,0)
@@ -103,6 +125,8 @@ h1
     border-top-right-radius: 17px
     box-shadow: 0 1rem 2.5rem rgba(27,22,66,.1),0 .5rem 1rem -.75rem rgba(27,22,66,.1)!important
     transition: all .2s
+    display: flex
+    justify-content: start
     &:hover
         color: $purple
         transform: translate3d(0,-3px,0)
@@ -136,6 +160,7 @@ h1
                 color: $purple
             .content-chart
                 width: 100%
+                display: flex
                 height: 300px
                 margin-top: 50px
                 border-radius: 5px
@@ -211,6 +236,8 @@ h1
 .charts 
     margin-top: 400px
     margin-bottom: 10px
+    .img-second
+        padding: 120px
 
 .chart_img
     img
@@ -284,3 +311,262 @@ h1
                 color: $default_text_color
                 &:hover
                     color: $default_text_color
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//responsive
+//breakpoints
+$phone-breakpoint: 950px
+
+
+@media screen and (max-width: $phone-breakpoint)
+    h1 
+        font-family: 'Newsreader'
+        font-weight: 600
+        font-size: 70px
+        text-align: center
+        line-height: 75px
+        .underlined-text
+            border-bottom: 0px solid $orange-light
+            display: inline-block
+            line-height: 75px
+
+    .buy_style_btn, .default_btn
+        justify-content: center!important
+        width: 100%
+        text-align: center
+
+    .buttons
+        display: block
+
+    .join
+        display: flex
+        justify-content: center
+        margin: 20px 0
+
+    .buy
+        display: flex
+        justify-content: center
+        margin: 20px 0
+
+    .main
+        .row
+            .wrapp
+                .content
+                    padding: 20px 20px
+                    margin-bottom: 200px
+
+    
+
+    .bg-right
+        width: 100%
+        .row
+            display: flex
+            justify-content: center
+            align-items: center
+            vertical-align: middle
+            .wrapp
+                position: absolute
+                width: 100%
+                height: 1200px
+                background: $blue-purple
+                transform: skewY(-3deg)
+                z-index: 2
+                border-radius: 5px
+            .content
+                position: relative
+                z-index: 10000
+                padding: 100px 40px
+                color: $blanco
+                text-align: center
+                font-size: 20px
+                text-align: left
+                vertical-align: middle
+                span 
+                    color: $purple
+                .content-chart
+                    width: 100%
+                    display: block
+                    height: 300px
+                    margin-top: 50px
+                    border-radius: 5px
+                    box-shadow: 0 5rem 5.5rem rgba(27,22,66,.1),0 .5rem 5rem -.75rem rgba(27,22,66,.1)!important
+                    .division
+                        width: 100%
+                        height: 1px
+                        background: $bg-light
+                        opacity: .2
+                        margin: 30px 0px
+                        padding: 0 20px
+                        display: flex
+                        justify-content: center
+                    .content-box
+                        width: 100%
+                        height: 260px
+                        margin: 0px
+                        border-radius: 5px
+                        background: $purple-light
+    .charts
+        .img-second
+            padding: 20px
+            margin-top: 120px
+
+    .chart_content 
+        padding: 0 20px
+        margin-top: 100px
+        
+        h2
+            font-family: 'Product Sans'
+            font-size: 40px
+            font-weight: 600
+            margin-bottom: 30px
+        p
+            font-size: 20px
+            color: $default_text_color
+
+        ul
+            list-style: none
+            padding: 0 
+            margin: 30px 0
+            li
+                font-size: 20px
+                color: $default_text_color
+                .img
+                    width: 100%
+                    border-radius: 50px
+                    height: 80px
+                    background: $blanco
+                    box-shadow: 0 5rem 5.5rem rgba(27,22,66,.1),0 .5rem 5rem -.75rem rgba(27,22,66,.1)!important
+                    padding: 10px
+                    .bar
+                        width: 80%
+                        height: 60px
+                        border-radius: 50px
+                        background: $green-cool
+                    .bar-light
+                        width: 60%
+                        height: 60px
+                        border-radius: 50px
+                        background: $green-light
+
+                    .bar-lighter
+                        width: 40%
+                        height: 60px
+                        border-radius: 50px
+                        background: $green-lighter
+                        margin-bottom: 40px
+
+                    img
+                        width: 100%
+                        max-width: 60px
+                        border-radius: 50%
+                .fas 
+                    font-size: 16px
+                    color: $yellow
+                    margin: 10px
+
+
+    .bg-left
+        width: 100%
+        margin-top: 100px
+        .row
+            display: flex
+            justify-content: center
+            align-items: center
+            .wrapp
+                position: absolute
+                width: 100%
+                height: 1850px
+                background: $blanco
+                transform: skewY(2deg)
+                z-index: 2
+                border-radius: 5px
+            .content
+                position: relative
+                z-index: 10000
+                padding: 300px 40px
+                color: $default_text_color
+                text-align: center
+                font-size: 20px
+                text-align: left
+                .accordion-button
+                    border: none
+                .accordion-body 
+                    border: none
+                .accordion-item
+                    box-shadow: 0 5rem 5.5rem #1b164209,0 .5rem 5rem -.75rem #1b16420c!important
+                    .accordion-header
+                        font-size: 20px
+                        font-family:  'Product Sans'
+                        font-weight: bolder
+                .accordion
+                    margin-bottom: 200px
+
+    .lists
+        ul 
+            list-style: none
+            margin: 10px 0px
+            padding: 0
+            li
+                color: $default_text_color
+                padding: 10px 0px 
+                a
+                    text-decoration: none
+                    color: $default_text_color
+                    &:hover
+                        color: $default_text_color
+
+
+    //header styles
+    header 
+        padding: 40px 0
+
+    .remove_ul_dots 
+        list-style: none
+
+    .default_a 
+        text-decoration: none
+        color: $default_a_color
+        margin: 30px
+        font-size: 18px
+        user-select: none
+        font-family: 'Product Sans'
+        &:hover
+                color: $default_text_color
+
+    .main_lg
+        width: 100%
+        max-width: 100px
+        margin: 0 20px
+        a
+            img
+                width: 100%
+
+    .lg
+        width: 100%
+        max-width: 100px
+        img
+            width: 100%
