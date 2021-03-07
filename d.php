@@ -22,15 +22,15 @@
                 <div class="wrapp d-flex justify-content-center align-items-center">
                     <div class="content">
                         <div class="title">
-                            <h1>A modern deashdajhsdsigy system for your new <span class="underlined-text">SaaS platform.</span></h1>
+                            <h1>Productos y servicios para el sector <span class="underlined-text"> <br> educativo</span></h1>
                         </div>
-                        <p class="default_text">Goodkit will make your product look modern and professional while saving you precious time</p>
+                        <p class="default_text">Education Community</p>
                         <div class="row buttons mt-5">
                             <div class="join col-xl-6 col-lg-12 col-md-12 col-sm-12">
-                                <a class="default_btn col-12 join_style_btn" href="">join us</a>
+                                <a class="default_btn col-12 join_style_btn" href="">Únete</a>
                             </div>
                             <div class="buy col-xl-6 col-lg-12 col-md-12 col-sm-12">
-                                <a class="default_btn col-12 buy_style_btn" href="">buy something</a>
+                                <a class="default_btn col-12 buy_style_btn" href="">Adquirir soluciones</a>
                             </div>
                         </div> 
                     </div>
@@ -52,24 +52,33 @@
 
                         <div class="sector d-xl-flex d-md-block d-sm-block">
                         <div class="content-sector col-xl-6 col-md-12 col-sm-12">
-                        <h2>New system developing</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur <span><i>adipisicing elit.</i></span> Deserunt quis libero asperiores, iure optio magni, perferendis sunt excepturi amet tempora voluptates unde aspernatur ut omnis commodi dolore ipsa modi mollitia!</p>
-                        <p>Lorem ipsum dolor sit s quidem velit suscipit obcaecati architecto magnam ullam, sit nobis similique voluptas eius, maxime corporis? Est dolore velit atque!</p>
+                        <h2>Clases híbridas</h2>
+                        <p>Estas listo para enfrentar la nueva normalidad de las <span><i>híbidas?</i></span> Nosotros te ayudamos con las mejores opciones, aplicables en hambientes con internet y en los que no tengas acceso a conectividad, inclusive sin acceso a energía electrica</p>
+                        <p>Recuerda que una formación y certificación de maestros es vital para este cambio, contamos con expertos internacionales que te ayudarán a lograr esta adaptación.</p>
                         <a class="default_a_styles" href="">Join right here</a>
                         
                         </div>
+                    
 
                         <div class="content-sector col-xl-6 col-md-12 col-sm-12">
-                        <p>Lorem ipsum dolor sit amet consectetur <span><i>adipisicing elit.</i></span></p>
+                        <h2>Clases remotas</h2>
+                        <p>Durante el 2020 y 2021 el mundo a experimentado una situación inesperada, la educación 100% remota es una realidad, ¿cuentas con personal capacitado y herramientas que te permitan ser competitivo?</p>
+                        <p>Los estudiantes de esta era ya se adaptarón a este modelo educativo, debemos adaptarnos todos y evolucionar.</p>
+                        <a class="default_a_styles" href="">Join right here</a>
                         
                         </div>
+                        
+                        
+                        
                         </div>
-
                         <div class="content-chart col-12">
                             <div class="content-box"></div>
                             <div class="division"></div>
                             <div class="content-box"></div>
                         </div>
+                        </div>
+
+
                     
                     </div>
             </div>
