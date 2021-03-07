@@ -55,7 +55,7 @@
                         <h2>Clases híbridas</h2>
                         <p>Estas listo para enfrentar la nueva normalidad de las <span><i>híbidas?</i></span> Nosotros te ayudamos con las mejores opciones, aplicables en hambientes con internet y en los que no tengas acceso a conectividad, inclusive sin acceso a energía electrica</p>
                         <p>Recuerda que una formación y certificación de maestros es vital para este cambio, contamos con expertos internacionales que te ayudarán a lograr esta adaptación.</p>
-                        <a class="default_a_styles" href="">Join right here</a>
+                        <a class="default_a_styles" href="">Conoce más aquí</a>
                         
                         </div>
                     
@@ -64,7 +64,7 @@
                         <h2>Clases remotas</h2>
                         <p>Durante el 2020 y 2021 el mundo a experimentado una situación inesperada, la educación 100% remota es una realidad, ¿cuentas con personal capacitado y herramientas que te permitan ser competitivo?</p>
                         <p>Los estudiantes de esta era ya se adaptarón a este modelo educativo, debemos adaptarnos todos y evolucionar.</p>
-                        <a class="default_a_styles" href="">Join right here</a>
+                        <a class="default_a_styles" href="">Conoce más aquí</a>
                         
                         </div>
                         
@@ -95,23 +95,33 @@
                             </div>
 
                             <div class="chart_content col-xl-6 col-lg-6 col-md-12 col-sm-12">
-                                <h2>Perfect reviews from our real customers.</h2>
-                                <p>At the time of publishing Goodkit, our team has over 5k sales on Bootstrap Themes with a perfect 5-star review history on both of our current themes. We're always striving to improve and support our customers.</p>
+                                <h2>Crea y comparte clases con todos tus estudiantes.</h2>
+                                <p>Con la plataforma TOMi.digital puedes crear y compartir clases divertidas en segundos, encontraras más de 30 mil clases disponibles para usarlas en todas las áreas, o podras seleccionar las que mas te gusten y editar su contenido con una compilación de las mejores actividades.</p>
                             
                                 <ul>
-                                    <li><i class="fas fa-check"></i> Over 5k sales on Bootstrap Themes</li>
-                                    <li><i class="fas fa-check"></i> Perfect 5-star reviews on all themes</li>
-                                    <li><i class="fas fa-check"></i> Perfect support records</li>
+                                    <li><i class="fas fa-check"></i> Más de 30 mil clases listas para compartir.</li>
+                                    <li><i class="fas fa-check"></i> Informes de resultados descargables en segundos.</li>
+                                    <li><i class="fas fa-check"></i> Programa las clases para cuando quieras.</li>
+                                    <li><i class="fas fa-check"></i> Certificate en creación de contenido.</li>
+                                    <li><i class="fas fa-check"></i> Pertenece a la comunidad mas grande de maestros de Latam.</li>
                                 </ul>
                             </div>
                         </div>
 
                         <div class="chart d-xl-flex d-lg-flex d-md-block d-sm-block justify-content-center align-items-center">
                             <div class="chart_content col-xl-6 col-lg-6 col-md-12 col-sm-12">
-                                <h2>Perfect reviews from our real customers.</h2>
-                                <p>At the time of publishing Goodkit, our team has over 5k sales on Bootstrap Themes with a perfect 5-star review history on both of our current themes. We're always striving to improve and support our customers.</p>
+                                <h2>Lleva tus clases al siguiente nivel.</h2>
+                                <p>Convierte cualquier espacio en una zona de trabajo interactivo con tus estudiantes, llevalos al campo, al pasillo, a la biblioteca y realiza calses divertidas sin necesidad de internet con los dispositivos TOMi, desarrollados para maestros innovadores.</p>
                             
                                 <ul>
+                                <li><i class="fas fa-check"></i> Convierte cualquier superficie en pizarra interactiva.</li>
+                                    <li><i class="fas fa-check"></i> Califica examenes en segundos.</li>
+                                    <li><i class="fas fa-check"></i> Toma asistencia de manera automñática.</li>
+                                    <li><i class="fas fa-check"></i> Aprende jugando con realidad aumentada.</li>
+                                    <li><i class="fas fa-check"></i> Comparte contenidos sin necesidad de internet.</li>
+                                    <li><i class="fas fa-check"></i> Usa tu celular para tomar asistencia y asignar puntos.</li>
+                                    <li><i class="fas fa-check"></i> Integra la tecnología de tu colegio.</li>
+
                                     <li><div class="img">
                                     <img src="assets/avatar-jumbo-1.jpg" alt="">
                                     <div class="bar"></div>
@@ -144,12 +154,32 @@
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingOne">
       <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-        ¿Como obtengo mi TOMi 7 en mi pais?
+        ¿Como obtengo una demostración?
       </button>
     </h2>
     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-        <strong>This is the first item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions.
+        <strong>Puedes obtenerla sin ningún costo, tan solo debes escribirnos y solicitar una fecha y hora para conocer las soluciones.</strong> 
+      </div>
+      <div class="accordion-item">
+    <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        ¿Puedo integrar estas soluciones con Classroom?
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>Todas las soluciones que viste puedes integrarlas con Classroom y Teams, y con cualquier plataforma que uses en tu colegio.</strong> 
+      </div>
+      <div class="accordion-item">
+    <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        ¿Como obtengo la formación en uso?
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>Todos nuestros productos se entregan con formación a maestros, certificación a un grupo como maestros embajadores y acceso a la comunidad de maestros de latinoamérica par que puedas compartir con todos ellos experiencias, contenido y clases.</strong> 
       </div>
     </div>
   </div>
